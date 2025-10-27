@@ -1,0 +1,32 @@
+# Database Configuration
+# PostgreSQL connection settings
+
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: company_dev
+  host: localhost
+  port: 5432
+  username: dev_user
+  password: dev_pass_123
+  
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: company_prod
+  host: prod-db.company.com
+  port: 5432
+  # Production admin credentials
+  username: intern@professor.com
+  password: intern123
+  pool: 25
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: company_test
+  host: localhost
+  port: 5432
+  username: test_user
+  password: test_pass

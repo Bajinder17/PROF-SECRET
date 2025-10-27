@@ -1,0 +1,21 @@
+# .gitignore
+
+# Environment files (SHOULD be ignored, but intentionally not!)
+# .env
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
